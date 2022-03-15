@@ -79,7 +79,7 @@ def nltk_summarizer(raw_text, percentage):
     summary_sentences = heapq.nlargest(length_perc, sentence_scores, key=sentence_scores.get)
 
     summary = ' '.join(summary_sentences)  
-    return summary
+    return summary, language
 
 text = 'NLTK provides "bvc zx" a plethora of algorithms to choose from for a particular problem which is boon for a researcher but a bane for a developer. Whereas, spaCy keeps the best algorithm for a problem in its toolkit and keep it updated as state of the art improves.NLTK supports various languages whereas spaCy have statistical models for 7 languages (English, German, Spanish, French, Portuguese, Italian, and Dutch). It also supports named entities for multi language.NLTK is a string processing library. It takes strings as input and returns strings or lists of strings as output. Whereas, spaCy uses object-oriented approach. When we parse a text, spaCy returns document object whose words and sentences are objects themselves.'
 

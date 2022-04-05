@@ -9,10 +9,10 @@ But the best way to ignore them, use google colab or some remote python compiler
 The website was created using the flask framework for python.
 
 ### How to run and deploy this project in google colab
-    1. Here runs the <a href="https://colab.research.google.com/drive/1RBMLPklRl4KG0iAsXW0dK3CAmWvkhPRd">.ipynb</a> code which starts with loading the libraries, you can do the same on your machine.
-    2. Find the location of the files in colab and place them with the files on top. `there will be .ipynb file, do not include it`
-    3. Then run all the commands in the <a href="https://colab.research.google.com/drive/1RBMLPklRl4KG0iAsXW0dK3CAmWvkhPRd">.ipynb</a> file, one by one.
-    4. Finally, you will have 2 routes: `grammar check` and `summarization`.
+   1. Here runs the <a href="https://colab.research.google.com/drive/1RBMLPklRl4KG0iAsXW0dK3CAmWvkhPRd">.ipynb</a> code which starts with loading the libraries, you can do the same on your machine.
+   2. Find the location of the files in colab and place them with the files on top. `there will be .ipynb file, do not include it`
+   3. Then run all the commands in the <a href="https://colab.research.google.com/drive/1RBMLPklRl4KG0iAsXW0dK3CAmWvkhPRd">.ipynb</a> file, one by one.
+   4. Finally, you will have 2 routes: `grammar check` and `summarization`.
 
 `Ngrok` is used to check your work in production mode, you can share the link with your friends.
 But first of all you have to understand its basic concept.

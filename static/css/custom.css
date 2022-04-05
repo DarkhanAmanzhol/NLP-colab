@@ -29,6 +29,11 @@ p {
   width: 100%;
 }
 
+.section-solutions-about {
+  background-color: #2F80ED;
+  min-height: 400px;
+}
+
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
